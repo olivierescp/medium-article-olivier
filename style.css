@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+
+.banner h2 {
+  font-size: 33px;
+  font-weight: lighter;
+  color: aliceblue;
+}
+
+.banner {
+  background-image: url(https://media.istockphoto.com/photos/hands-of-car-driver-on-steering-wheel-road-trip-picture-id1017908786?b=1&k=20&m=1017908786&s=170667a&w=0&h=kz1zGvYHM8qxISG7DcbgRttqmAjK9Got3M_i2ejlgn4=);
+  background-size: cover;
+  filter: grayscale(75%);
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h2 {
+  padding: 20px 0 0;
+  color: grey;
+}
+
+p {
+  color: grey;
+  font-weight: lighter;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
